@@ -1,0 +1,16 @@
+### Editor backup
+*~
+*tmp
+
+### macOS ###
+.DS_Store
+
+### Eagle ###
+*.s#?
+*.b#?
+*.l#?
+*.b$?
+*.s$?
+*.l$?
+*.pro
+eagle.epf
