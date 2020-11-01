@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="4" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -167,24 +167,24 @@
 <wire x1="0" y1="96" x2="0" y2="4" width="0" layer="20" locked="yes"/>
 <wire x1="96" y1="0" x2="100" y2="4" width="0" layer="20" curve="90" locked="yes"/>
 <wire x1="0" y1="4" x2="4" y2="0" width="0" layer="20" curve="90" locked="yes"/>
-<text x="87.63" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">A</text>
-<text x="85.09" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">B</text>
-<text x="82.55" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">C</text>
-<text x="80.01" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">D</text>
-<text x="77.47" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">E</text>
-<text x="74.93" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">F</text>
-<text x="72.39" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">G</text>
+<text x="86.36" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">A</text>
+<text x="83.82" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">B</text>
+<text x="81.28" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">C</text>
+<text x="78.74" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">D</text>
+<text x="76.2" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">E</text>
+<text x="73.66" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">F</text>
+<text x="71.12" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">G</text>
 <wire x1="100" y1="96" x2="96" y2="100" width="0" layer="20" curve="90" locked="yes"/>
 <wire x1="4" y1="100" x2="0" y2="96" width="0" layer="20" curve="90" locked="yes"/>
 <wire x1="4" y1="100" x2="96" y2="100" width="0" layer="20" locked="yes"/>
-<text x="59.69" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">0</text>
-<text x="62.23" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">1</text>
-<text x="64.77" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">2</text>
-<text x="67.31" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">3</text>
-<text x="52.07" y="7.12" size="2" layer="21" font="vector" ratio="10" rot="R90" align="center">GND</text>
-<text x="54.61" y="7.12" size="2" layer="21" font="vector" ratio="10" rot="R90" align="center">VCC</text>
-<text x="63.39" y="8.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">Binary in</text>
-<text x="79.89" y="8.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">Segment</text>
+<text x="58.42" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">0</text>
+<text x="60.96" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">1</text>
+<text x="63.5" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">2</text>
+<text x="66.04" y="5.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">3</text>
+<text x="50.8" y="7.12" size="2" layer="21" font="vector" ratio="10" rot="R90" align="center">GND</text>
+<text x="53.34" y="7.12" size="2" layer="21" font="vector" ratio="10" rot="R90" align="center">VCC</text>
+<text x="62.12" y="8.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">Hex in</text>
+<text x="78.62" y="8.35" size="2" layer="21" font="vector" ratio="10" rot="R180" align="center">Segment</text>
 <text x="11.087" y="65.477" size="2" layer="21" font="vector" ratio="12" rot="R180" align="center">On</text>
 <text x="17.119" y="65.477" size="2" layer="21" font="vector" ratio="12" rot="R180" align="center">Off</text>
 <wire x1="13" y1="67" x2="9" y2="67" width="0.2032" layer="21"/>
@@ -639,11 +639,11 @@ by exp-lbrs.ulp</description>
 <description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line  C B E from top&lt;p&gt;</description>
 <wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1778" layer="21"/>
 <wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.1778" layer="21" curve="-129.583"/>
-<wire x1="-2.413" y1="1.1359" x2="-2.664" y2="-0.127" width="0.1778" layer="51" curve="27.9376"/>
-<wire x1="-2.664" y1="-0.127" x2="-2.413" y2="-1.1359" width="0.1778" layer="51" curve="22.4788"/>
+<wire x1="-2.413" y1="1.1359" x2="-2.664" y2="-0.127" width="0.1778" layer="21" curve="27.9376"/>
+<wire x1="-2.664" y1="-0.127" x2="-2.413" y2="-1.1359" width="0.1778" layer="21" curve="22.4788"/>
 <wire x1="-2.4135" y1="-1.1359" x2="-2.095" y2="-1.651" width="0.1778" layer="21" curve="13.0385"/>
-<wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.1778" layer="51" curve="22.4788"/>
-<wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.1778" layer="51" curve="27.9376"/>
+<wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.1778" layer="21" curve="22.4788"/>
+<wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.1778" layer="21" curve="27.9376"/>
 <wire x1="2.095" y1="-1.651" x2="2.4247" y2="-1.1118" width="0.1778" layer="21" curve="13.6094"/>
 <pad name="B" x="0" y="0" drill="0.8128" diameter="1.4224" shape="octagon" rot="R90" stop="no"/>
 <pad name="C" x="-2.54" y="0" drill="0.8128" diameter="1.4224" shape="octagon" rot="R90" stop="no"/>
@@ -660,7 +660,6 @@ by exp-lbrs.ulp</description>
 <vertex x="2.225" y="-0.75"/>
 <vertex x="1.775" y="-0.3"/>
 </polygon>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1778" layer="21"/>
 <polygon width="0.01" layer="30">
 <vertex x="-3.305" y="0.325"/>
 <vertex x="-2.855" y="0.75"/>
@@ -945,427 +944,427 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </autorouter>
 <elements>
 <element name="D1" library="MatsEng" package="DO35-7" value="" x="36.5" y="96" smashed="yes">
-<attribute name="NAME" x="35.23" y="95.392" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="95.392" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D10" library="MatsEng" package="DO35-7" value="" x="36.5" y="76.2" smashed="yes">
-<attribute name="NAME" x="35.23" y="75.592" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="75.592" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D11" library="MatsEng" package="DO35-7" value="" x="36.5" y="74" smashed="yes">
-<attribute name="NAME" x="35.23" y="73.392" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="73.392" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D12" library="MatsEng" package="DO35-7" value="" x="36.5" y="71.8" smashed="yes">
-<attribute name="NAME" x="35.23" y="71.192" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="71.192" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D13" library="MatsEng" package="DO35-7" value="" x="36.5" y="69.6" smashed="yes">
-<attribute name="NAME" x="35.23" y="68.992" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="68.992" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D14" library="MatsEng" package="DO35-7" value="" x="36.5" y="67.4" smashed="yes">
-<attribute name="NAME" x="35.23" y="66.792" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="66.792" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D15" library="MatsEng" package="DO35-7" value="" x="36.5" y="65.2" smashed="yes">
-<attribute name="NAME" x="35.23" y="64.592" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="64.592" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D16" library="MatsEng" package="DO35-7" value="" x="36.5" y="63" smashed="yes">
-<attribute name="NAME" x="35.23" y="62.392" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="62.392" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D17" library="MatsEng" package="DO35-7" value="" x="36.5" y="60.8" smashed="yes">
-<attribute name="NAME" x="35.23" y="60.192" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="60.192" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D18" library="MatsEng" package="DO35-7" value="" x="36.5" y="58.6" smashed="yes">
-<attribute name="NAME" x="35.23" y="57.992" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="57.992" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D19" library="MatsEng" package="DO35-7" value="" x="36.5" y="56.4" smashed="yes">
-<attribute name="NAME" x="35.23" y="55.792" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="55.792" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D2" library="MatsEng" package="DO35-7" value="" x="36.5" y="93.8" smashed="yes">
-<attribute name="NAME" x="35.23" y="93.192" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="93.192" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D20" library="MatsEng" package="DO35-7" value="" x="36.5" y="54.2" smashed="yes">
-<attribute name="NAME" x="35.23" y="53.592" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="53.592" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D21" library="MatsEng" package="DO35-7" value="" x="36.5" y="52" smashed="yes">
-<attribute name="NAME" x="35.23" y="51.392" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="51.392" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D22" library="MatsEng" package="DO35-7" value="" x="47" y="97.1" smashed="yes">
-<attribute name="NAME" x="45.73" y="96.492" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="96.492" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D23" library="MatsEng" package="DO35-7" value="" x="47" y="94.9" smashed="yes">
-<attribute name="NAME" x="45.73" y="94.292" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="94.292" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D24" library="MatsEng" package="DO35-7" value="" x="47" y="92.7" smashed="yes">
-<attribute name="NAME" x="45.73" y="92.092" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="92.092" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D25" library="MatsEng" package="DO35-7" value="" x="47" y="90.5" smashed="yes">
-<attribute name="NAME" x="45.73" y="89.892" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="89.892" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D26" library="MatsEng" package="DO35-7" value="" x="47" y="88.3" smashed="yes">
-<attribute name="NAME" x="45.73" y="87.692" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="87.692" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D27" library="MatsEng" package="DO35-7" value="" x="47" y="86.1" smashed="yes">
-<attribute name="NAME" x="45.73" y="85.492" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="85.492" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D28" library="MatsEng" package="DO35-7" value="" x="47" y="83.9" smashed="yes">
-<attribute name="NAME" x="45.73" y="83.292" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="83.292" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D29" library="MatsEng" package="DO35-7" value="" x="47" y="81.7" smashed="yes">
-<attribute name="NAME" x="45.73" y="81.092" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="81.092" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D3" library="MatsEng" package="DO35-7" value="" x="36.5" y="91.6" smashed="yes">
-<attribute name="NAME" x="35.23" y="90.992" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="90.992" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D30" library="MatsEng" package="DO35-7" value="" x="47" y="79.5" smashed="yes">
-<attribute name="NAME" x="45.73" y="78.892" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="78.892" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D31" library="MatsEng" package="DO35-7" value="" x="47" y="77.3" smashed="yes">
-<attribute name="NAME" x="45.73" y="76.692" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="76.692" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D32" library="MatsEng" package="DO35-7" value="" x="47" y="75.1" smashed="yes">
-<attribute name="NAME" x="45.73" y="74.492" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="74.492" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D33" library="MatsEng" package="DO35-7" value="" x="47" y="72.9" smashed="yes">
-<attribute name="NAME" x="45.73" y="72.292" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="72.292" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D34" library="MatsEng" package="DO35-7" value="" x="47" y="70.7" smashed="yes">
-<attribute name="NAME" x="45.73" y="70.092" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="70.092" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D35" library="MatsEng" package="DO35-7" value="" x="47" y="68.5" smashed="yes">
-<attribute name="NAME" x="45.73" y="67.892" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="67.892" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D36" library="MatsEng" package="DO35-7" value="" x="47" y="66.3" smashed="yes">
-<attribute name="NAME" x="45.73" y="65.692" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="65.692" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D37" library="MatsEng" package="DO35-7" value="" x="47" y="64.1" smashed="yes">
-<attribute name="NAME" x="45.73" y="63.492" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="63.492" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D38" library="MatsEng" package="DO35-7" value="" x="47" y="61.9" smashed="yes">
-<attribute name="NAME" x="45.73" y="61.292" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="61.292" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D39" library="MatsEng" package="DO35-7" value="" x="47" y="59.7" smashed="yes">
-<attribute name="NAME" x="45.73" y="59.092" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="59.092" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D4" library="MatsEng" package="DO35-7" value="" x="36.5" y="89.4" smashed="yes">
-<attribute name="NAME" x="35.23" y="88.792" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="88.792" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D40" library="MatsEng" package="DO35-7" value="" x="47" y="57.5" smashed="yes">
-<attribute name="NAME" x="45.73" y="56.892" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="56.892" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D41" library="MatsEng" package="DO35-7" value="" x="47" y="55.3" smashed="yes">
-<attribute name="NAME" x="45.73" y="54.692" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="54.692" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D42" library="MatsEng" package="DO35-7" value="" x="47" y="53.1" smashed="yes">
-<attribute name="NAME" x="45.73" y="52.492" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="52.492" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D43" library="MatsEng" package="DO35-7" value="" x="47" y="50.9" smashed="yes">
-<attribute name="NAME" x="45.73" y="50.292" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="50.292" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D44" library="MatsEng" package="DO35-7" value="" x="47" y="48.7" smashed="yes">
-<attribute name="NAME" x="45.73" y="48.092" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="46.0475" y="48.092" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D5" library="MatsEng" package="DO35-7" value="" x="36.5" y="87.2" smashed="yes">
-<attribute name="NAME" x="35.23" y="86.592" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="86.592" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D6" library="MatsEng" package="DO35-7" value="" x="36.5" y="85" smashed="yes">
-<attribute name="NAME" x="35.23" y="84.392" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="84.392" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D7" library="MatsEng" package="DO35-7" value="" x="36.5" y="82.8" smashed="yes">
-<attribute name="NAME" x="35.23" y="82.192" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="82.192" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D8" library="MatsEng" package="DO35-7" value="" x="36.5" y="80.6" smashed="yes">
-<attribute name="NAME" x="35.23" y="79.992" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="79.992" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D9" library="MatsEng" package="DO35-7" value="" x="36.5" y="78.4" smashed="yes">
-<attribute name="NAME" x="35.23" y="77.792" size="1.2" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="35.5475" y="77.792" size="1.2" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D45" library="MatsEng" package="DO35-7" value="" x="67.5" y="97.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="97.508" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="97.66675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D46" library="MatsEng" package="DO35-7" value="" x="67.5" y="94.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="95.308" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="95.46675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D47" library="MatsEng" package="DO35-7" value="" x="67.5" y="92.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="93.108" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="93.26675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D48" library="MatsEng" package="DO35-7" value="" x="67.5" y="90.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="90.908" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="91.06675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D49" library="MatsEng" package="DO35-7" value="" x="67.5" y="88.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="88.708" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="88.86675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D50" library="MatsEng" package="DO35-7" value="" x="67.5" y="86.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="86.508" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="86.66675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D51" library="MatsEng" package="DO35-7" value="" x="67.5" y="83.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="84.308" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="84.46675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D52" library="MatsEng" package="DO35-7" value="" x="67.5" y="81.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="82.108" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="82.26675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D53" library="MatsEng" package="DO35-7" value="" x="67.5" y="79.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="79.908" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="80.06675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D54" library="MatsEng" package="DO35-7" value="" x="67.5" y="77.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="77.708" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="77.86675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D55" library="MatsEng" package="DO35-7" value="" x="67.5" y="75.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="75.508" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="75.66675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D56" library="MatsEng" package="DO35-7" value="" x="67.5" y="72.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="73.308" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="73.46675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D59" library="MatsEng" package="DO35-7" value="" x="67.5" y="66.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="66.708" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="66.86675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D60" library="MatsEng" package="DO35-7" value="" x="67.5" y="64.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="64.508" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="64.66675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D57" library="MatsEng" package="DO35-7" value="" x="67.5" y="70.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="71.108" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="71.26675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D58" library="MatsEng" package="DO35-7" value="" x="67.5" y="68.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="68.908" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="69.06675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D61" library="MatsEng" package="DO35-7" value="" x="67.5" y="61.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="62.308" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="62.46675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D62" library="MatsEng" package="DO35-7" value="" x="67.5" y="59.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="60.108" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="60.26675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D63" library="MatsEng" package="DO35-7" value="" x="67.5" y="57.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="57.908" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="58.06675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D64" library="MatsEng" package="DO35-7" value="" x="67.5" y="55.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="55.708" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="55.86675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D65" library="MatsEng" package="DO35-7" value="" x="67.5" y="53.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="53.508" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="53.66675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D66" library="MatsEng" package="DO35-7" value="" x="67.5" y="50.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="51.308" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="51.46675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D67" library="MatsEng" package="DO35-7" value="" x="67.5" y="48.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="49.108" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="49.26675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D68" library="MatsEng" package="DO35-7" value="" x="67.5" y="46.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="46.908" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="47.06675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D69" library="MatsEng" package="DO35-7" value="" x="67.5" y="44.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="44.708" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="44.86675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D70" library="MatsEng" package="DO35-7" value="" x="67.5" y="42.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="42.508" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="42.66675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D71" library="MatsEng" package="DO35-7" value="" x="67.5" y="39.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="40.308" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="40.46675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D72" library="MatsEng" package="DO35-7" value="" x="67.5" y="37.73" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="38.138" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="38.29675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D73" library="MatsEng" package="DO35-7" value="" x="67.5" y="35.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.77" y="35.908" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="68.61125" y="36.06675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D74" library="MatsEng" package="DO35-7" value="" x="78.1" y="96" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="96.408" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="96.56675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D75" library="MatsEng" package="DO35-7" value="" x="78.1" y="93.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="94.208" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="94.36675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D76" library="MatsEng" package="DO35-7" value="" x="78.1" y="91.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="92.008" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="92.16675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D77" library="MatsEng" package="DO35-7" value="" x="78.1" y="89.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="89.808" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="89.96675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D78" library="MatsEng" package="DO35-7" value="" x="78.1" y="87.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="87.608" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="87.76675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D79" library="MatsEng" package="DO35-7" value="" x="78.1" y="85" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="85.408" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="85.56675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D80" library="MatsEng" package="DO35-7" value="" x="78.1" y="82.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="83.208" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="83.36675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D81" library="MatsEng" package="DO35-7" value="" x="78.1" y="80.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="81.008" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="81.16675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D82" library="MatsEng" package="DO35-7" value="" x="78.1" y="78.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="78.808" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="78.96675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D83" library="MatsEng" package="DO35-7" value="" x="78.1" y="76.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="76.608" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="76.76675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D84" library="MatsEng" package="DO35-7" value="" x="78.1" y="74" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="74.408" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="74.56675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D85" library="MatsEng" package="DO35-7" value="" x="78.1" y="71.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="72.208" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="72.36675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D86" library="MatsEng" package="DO35-7" value="" x="78.1" y="69.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="70.008" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="70.16675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D87" library="MatsEng" package="DO35-7" value="" x="78.1" y="67.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="67.808" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="67.96675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D88" library="MatsEng" package="DO35-7" value="" x="78.1" y="65.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="65.608" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="65.76675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D89" library="MatsEng" package="DO35-7" value="" x="78.1" y="63" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="63.408" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="63.56675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D90" library="MatsEng" package="DO35-7" value="" x="78.1" y="60.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="61.208" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="61.36675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D91" library="MatsEng" package="DO35-7" value="" x="78.1" y="58.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="59.008" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="59.16675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D92" library="MatsEng" package="DO35-7" value="" x="78.1" y="56.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="56.808" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="56.96675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D93" library="MatsEng" package="DO35-7" value="" x="78.1" y="54.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="54.608" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="54.76675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D94" library="MatsEng" package="DO35-7" value="" x="78.1" y="52" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="52.408" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="52.56675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D95" library="MatsEng" package="DO35-7" value="" x="78.1" y="49.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="50.208" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="50.36675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D96" library="MatsEng" package="DO35-7" value="" x="78.1" y="47.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.37" y="48.008" size="1.2" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="79.21125" y="48.16675" size="1.2" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R1" library="MatsEng" package="7MM_RESISTOR" value="" x="6.5" y="58" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.5" y="56.879403125" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="6.5" y="56.879403125" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="7.502128125" y="61.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R2" library="MatsEng" package="7MM_RESISTOR" value="" x="6.5" y="48" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.5" y="46.879403125" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="6.5" y="46.879403125" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="7.502128125" y="51.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R3" library="MatsEng" package="7MM_RESISTOR" value="" x="6.5" y="38" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.5" y="36.879403125" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="6.5" y="36.879403125" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="7.502128125" y="41.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R4" library="MatsEng" package="7MM_RESISTOR" value="" x="6.5" y="28" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.5" y="26.879403125" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="6.5" y="26.879403125" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="7.502128125" y="31.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R5" library="MatsEng" package="7MM_RESISTOR" value="" x="21.5" y="58" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.5" y="56.879403125" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="21.5" y="56.879403125" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="20.497871875" y="54.944409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R6" library="MatsEng" package="7MM_RESISTOR" value="" x="21.5" y="48" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.5" y="46.879403125" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="21.5" y="46.879403125" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="20.497871875" y="44.944409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R7" library="MatsEng" package="7MM_RESISTOR" value="" x="21.5" y="38" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.5" y="36.879403125" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="21.5" y="36.879403125" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="20.497871875" y="34.944409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R8" library="MatsEng" package="7MM_RESISTOR" value="" x="21.5" y="28" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.5" y="26.879403125" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="21.5" y="26.879403125" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="20.497871875" y="24.944409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R9" library="MatsEng" package="7MM_RESISTOR" value="" x="14" y="58" smashed="yes" rot="R270">
-<attribute name="NAME" x="14" y="56.879403125" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="14" y="56.879403125" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="12.997871875" y="54.944409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R10" library="MatsEng" package="7MM_RESISTOR" value="" x="14" y="48" smashed="yes" rot="R270">
-<attribute name="NAME" x="14" y="46.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="14" y="46.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="12.997871875" y="44.944409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R11" library="MatsEng" package="7MM_RESISTOR" value="" x="14" y="38" smashed="yes" rot="R270">
-<attribute name="NAME" x="14" y="36.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="14" y="36.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="12.997871875" y="34.944409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R12" library="MatsEng" package="7MM_RESISTOR" value="" x="14" y="28" smashed="yes" rot="R270">
-<attribute name="NAME" x="14" y="26.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="14" y="26.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="12.997871875" y="24.944409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R13" library="MatsEng" package="7MM_RESISTOR" value="" x="89" y="88" smashed="yes">
-<attribute name="NAME" x="89" y="87.25" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="89" y="87.25" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="92.055590625" y="86.997871875" size="1.143" layer="27" ratio="10" align="bottom-right"/>
 </element>
 <element name="R14" library="MatsEng" package="7MM_RESISTOR" value="" x="89" y="78" smashed="yes">
-<attribute name="NAME" x="89" y="77.25" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="89" y="77.25" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="92.055590625" y="76.997871875" size="1.143" layer="27" ratio="10" align="bottom-right"/>
 </element>
 <element name="R15" library="MatsEng" package="7MM_RESISTOR" value="" x="89" y="65" smashed="yes">
-<attribute name="NAME" x="89" y="64.25" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="89" y="64.25" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="92.055590625" y="63.997871875" size="1.143" layer="27" ratio="10" align="bottom-right"/>
 </element>
 <element name="R16" library="MatsEng" package="7MM_RESISTOR" value="" x="89" y="52" smashed="yes">
-<attribute name="NAME" x="89" y="51.25" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="89" y="51.25" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="92.055590625" y="50.997871875" size="1.143" layer="27" ratio="10" align="bottom-right"/>
 </element>
 <element name="R17" library="MatsEng" package="7MM_RESISTOR" value="" x="89" y="91" smashed="yes">
-<attribute name="NAME" x="89" y="90.25" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="89" y="90.25" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="92.055590625" y="89.997871875" size="1.143" layer="27" ratio="10" align="bottom-right"/>
 </element>
 <element name="R18" library="MatsEng" package="7MM_RESISTOR" value="" x="89" y="75" smashed="yes">
-<attribute name="NAME" x="89" y="74.25" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="89" y="74.25" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="92.055590625" y="73.997871875" size="1.143" layer="27" ratio="10" align="bottom-right"/>
 </element>
 <element name="R19" library="MatsEng" package="7MM_RESISTOR" value="" x="89" y="62" smashed="yes">
-<attribute name="NAME" x="89" y="61.25" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="89" y="61.25" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="92.055590625" y="60.997871875" size="1.143" layer="27" ratio="10" align="bottom-right"/>
 </element>
 <element name="T1" library="MatsEng" package="TO92-CBE" value="" x="10" y="58" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.507990625" y="61.437" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="10.507990625" y="61.437" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="6.698" y="60.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T2" library="MatsEng" package="TO92-CBE" value="" x="10" y="48" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.507990625" y="51.437" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="10.507990625" y="51.437" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="6.698" y="50.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T3" library="MatsEng" package="TO92-CBE" value="" x="10" y="38" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.507990625" y="41.437" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="10.507990625" y="41.437" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="6.698" y="40.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T4" library="MatsEng" package="TO92-CBE" value="" x="10" y="28" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.507990625" y="31.437" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="10.507990625" y="31.437" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="6.698" y="30.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T5" library="MatsEng" package="TO92-CBE" value="" x="17.5" y="58" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.007990625" y="61.437" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="18.007990625" y="61.437" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="14.198" y="60.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T6" library="MatsEng" package="TO92-CBE" value="" x="17.5" y="48" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.007990625" y="51.437" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="18.007990625" y="51.437" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="14.198" y="50.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T7" library="MatsEng" package="TO92-CBE" value="" x="17.5" y="38" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.007990625" y="41.437" size="1.27" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="18.007990625" y="41.437" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="14.198" y="40.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T8" library="MatsEng" package="TO92-CBE" value="" x="17.5" y="28" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.007990625" y="31.437" size="1.5" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="18.007990625" y="31.437" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="14.198" y="30.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T9" library="MatsEng" package="TO92-CBE" value="" x="92" y="83" smashed="yes" rot="R270">
-<attribute name="NAME" x="94.882884375" y="83.0025" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="top-center"/>
+<attribute name="NAME" x="94.882884375" y="83.0025" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="top-center"/>
 <attribute name="VALUE" x="88.698" y="85.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T10" library="MatsEng" package="TO92-CBE" value="" x="85.5" y="70" smashed="yes" rot="R270">
-<attribute name="NAME" x="88.382884375" y="70.0025" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="top-center"/>
+<attribute name="NAME" x="88.382884375" y="70.0025" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="top-center"/>
 <attribute name="VALUE" x="82.198" y="72.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T11" library="MatsEng" package="TO92-CBE" value="" x="85.5" y="57" smashed="yes" rot="R270">
-<attribute name="NAME" x="88.382884375" y="57.0025" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="top-center"/>
+<attribute name="NAME" x="88.382884375" y="57.0025" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="top-center"/>
 <attribute name="VALUE" x="82.198" y="59.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T12" library="MatsEng" package="TO92-CBE" value="" x="85.5" y="47" smashed="yes" rot="R270">
-<attribute name="NAME" x="88.382884375" y="47.0025" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="top-center"/>
+<attribute name="NAME" x="88.382884375" y="47.0025" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="top-center"/>
 <attribute name="VALUE" x="82.198" y="49.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T13" library="MatsEng" package="TO92-CBE" value="" x="85.5" y="83" smashed="yes" rot="R270">
-<attribute name="NAME" x="88.382884375" y="83.0025" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="top-center"/>
+<attribute name="NAME" x="88.382884375" y="83.0025" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="top-center"/>
 <attribute name="VALUE" x="82.198" y="85.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T14" library="MatsEng" package="TO92-CBE" value="" x="92" y="70" smashed="yes" rot="R270">
-<attribute name="NAME" x="94.882884375" y="70.0025" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="top-center"/>
+<attribute name="NAME" x="94.882884375" y="70.0025" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="top-center"/>
 <attribute name="VALUE" x="88.698" y="72.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="T15" library="MatsEng" package="TO92-CBE" value="" x="92" y="57" smashed="yes" rot="R270">
-<attribute name="NAME" x="94.882884375" y="57.0025" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="top-center"/>
+<attribute name="NAME" x="94.882884375" y="57.0025" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="top-center"/>
 <attribute name="VALUE" x="88.698" y="59.54" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="U$1" library="MatsEng" package="TACTILE-PTH" value="TACTILETACT-6X6-PTH" x="40.87" y="5.5" smashed="yes" rot="R90"/>
@@ -1382,31 +1381,31 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" value="6.8MM_COIN_CELL" x="14" y="83" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R20" library="MatsEng" package="7MM_RESISTOR" value="" x="97.5" y="34.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="97.5" y="32.70440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="97.5" y="32.70440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="96.497871875" y="31.444409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R21" library="MatsEng" package="7MM_RESISTOR" value="" x="94.5" y="34.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="94.5" y="32.70440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="94.5" y="32.70440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="93.497871875" y="31.444409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R22" library="MatsEng" package="7MM_RESISTOR" value="" x="91.5" y="34.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="91.5" y="32.70440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="91.5" y="32.70440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="90.497871875" y="31.444409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R23" library="MatsEng" package="7MM_RESISTOR" value="" x="88.5" y="34.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="88.5" y="32.70440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="88.5" y="32.70440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="87.497871875" y="31.444409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R24" library="MatsEng" package="7MM_RESISTOR" value="" x="85.5" y="34.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="85.5" y="32.70440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="85.5" y="32.70440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="84.497871875" y="31.444409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R25" library="MatsEng" package="7MM_RESISTOR" value="" x="82.5" y="34.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="82.5" y="32.70440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="82.5" y="32.70440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="81.497871875" y="31.444409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="R26" library="MatsEng" package="7MM_RESISTOR" value="" x="79.5" y="34.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="79.5" y="32.70440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="79.5" y="32.70440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="78.497871875" y="31.444409375" size="1.143" layer="27" ratio="10" rot="R270" align="bottom-right"/>
 </element>
 <element name="H1" library="MatsEng" package="3,2" value="MOUNT-HOLE3.2" x="4" y="4" smashed="yes">
@@ -1422,75 +1421,75 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="1" x="96" y="4" size="4" layer="27" font="vector" display="off"/>
 </element>
 <element name="R27" library="MatsEng" package="7MM_RESISTOR" value="" x="32" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="32" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="32" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="33.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R28" library="MatsEng" package="7MM_RESISTOR" value="" x="35" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="35" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="35" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="36.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R29" library="MatsEng" package="7MM_RESISTOR" value="" x="38" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="38" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="38" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="39.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R30" library="MatsEng" package="7MM_RESISTOR" value="" x="41" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="41" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="41" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="42.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R31" library="MatsEng" package="7MM_RESISTOR" value="" x="44" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="44" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="44" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="45.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R32" library="MatsEng" package="7MM_RESISTOR" value="" x="47" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="47" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="47" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="48.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R33" library="MatsEng" package="7MM_RESISTOR" value="" x="50" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="50" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="50" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="51.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R34" library="MatsEng" package="7MM_RESISTOR" value="" x="53" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="53" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="53" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="54.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R35" library="MatsEng" package="7MM_RESISTOR" value="" x="56" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="56" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="56" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="57.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R36" library="MatsEng" package="7MM_RESISTOR" value="" x="59" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="59" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="59" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="60.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R37" library="MatsEng" package="7MM_RESISTOR" value="" x="62" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="62" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="62" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="63.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R38" library="MatsEng" package="7MM_RESISTOR" value="" x="65" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="65" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="65" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="66.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R39" library="MatsEng" package="7MM_RESISTOR" value="" x="68" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="68" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="68" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="69.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
 <element name="R40" library="MatsEng" package="7MM_RESISTOR" value="" x="71" y="26" smashed="yes" rot="R90">
-<attribute name="NAME" x="71" y="24.20440625" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="71" y="24.20440625" size="1.2" layer="25" font="vector" ratio="10" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="72.002128125" y="29.055590625" size="1.143" layer="27" ratio="10" rot="R90" align="bottom-right"/>
 </element>
-<element name="CN3" library="MatsEng" package="1X07" value="" x="87.63" y="2.54" smashed="yes" rot="R180">
-<attribute name="VALUE" x="88.9" y="4.572" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
+<element name="CN3" library="MatsEng" package="1X07" value="" x="86.36" y="2.54" smashed="yes" rot="R180">
+<attribute name="VALUE" x="87.63" y="4.572" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="CN2" library="MatsEng" package="1X04" value="1X04_SMD_STRAIGHT_COMBO" x="59.68" y="2.5" smashed="yes">
-<attribute name="PROD_ID" value="CONN-08511" x="59.68" y="2.5" size="1.778" layer="27" display="off"/>
-<attribute name="SF_ID" value="PRT-12638" x="59.68" y="2.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="1X04_SMD_STRAIGHT_COMBO" x="58.41" y="0.468" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="CN2" library="MatsEng" package="1X04" value="1X04_SMD_STRAIGHT_COMBO" x="58.42" y="2.54" smashed="yes">
+<attribute name="PROD_ID" value="CONN-08511" x="58.42" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="SF_ID" value="PRT-12638" x="58.42" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="1X04_SMD_STRAIGHT_COMBO" x="57.15" y="0.508" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="CN1" library="MatsEng" package="1X02" value="" x="52.07" y="2.54" smashed="yes">
-<attribute name="PROD_ID" value="CONN-13512" x="52.07" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="SF_ID" value="PRT-09918" x="52.07" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="SF_SKU" value="PRT-08432" x="52.07" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="SKU" value="PRT-09914" x="52.07" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="50.8" y="0.508" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="CN1" library="MatsEng" package="1X02" value="" x="50.8" y="2.54" smashed="yes">
+<attribute name="PROD_ID" value="CONN-13512" x="50.8" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="SF_ID" value="PRT-09918" x="50.8" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="SF_SKU" value="PRT-08432" x="50.8" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="PRT-09914" x="50.8" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="49.53" y="0.508" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J1" library="MatsEng" package="1X03NOSTOP" value="" x="11.5" y="69" smashed="yes"/>
 <element name="CN4" library="MatsEng" package="1X02" value="" x="2.54" y="86.36" smashed="yes" rot="R90">
@@ -2458,10 +2457,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="10.04" y1="55.5" x2="12.5" y2="55.5" width="0.6096" layer="16"/>
 <wire x1="81.5" y1="99" x2="83.5" y2="97" width="0.6096" layer="16" curve="-90"/>
 <contactref element="CN1" pad="1"/>
-<wire x1="52.07" y1="2.54" x2="52.07" y2="18.23" width="0.6096" layer="16"/>
-<wire x1="52.07" y1="18.23" x2="50.8" y2="19.5" width="0.6096" layer="16" curve="90"/>
+<wire x1="50.8" y1="2.54" x2="50.8" y2="17.78" width="0.6096" layer="16"/>
 <wire x1="13.77" y1="19.5" x2="12.5" y2="20.77" width="0.6096" layer="16" curve="-90"/>
-<wire x1="50.8" y1="19.5" x2="13.77" y2="19.5" width="0.6096" layer="16"/>
+<wire x1="45.72" y1="19.5" x2="13.77" y2="19.5" width="0.6096" layer="16"/>
 <wire x1="74.93" y1="43.19" x2="76.2" y2="44.46" width="0.6096" layer="1" curve="-90"/>
 <wire x1="76.2" y1="44.46" x2="85.5" y2="44.46" width="0.6096" layer="1"/>
 <wire x1="17.5" y1="25.46" x2="19.46" y2="25.46" width="0.6096" layer="1"/>
@@ -2504,6 +2502,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="11" y1="96.46" x2="13.54" y2="99" width="0.6096" layer="16" curve="-90"/>
 <contactref element="CN4" pad="1"/>
 <contactref element="CN5" pad="1"/>
+<wire x1="45.72" y1="19.5" x2="49.53" y2="19.5" width="0.6096" layer="16"/>
+<wire x1="49.53" y1="19.5" x2="50.8" y2="18.23" width="0.6096" layer="16" curve="-90"/>
+<wire x1="50.8" y1="18.23" x2="50.8" y2="17.78" width="0.6096" layer="16"/>
 </signal>
 <signal name="SEGG">
 <contactref element="T15" pad="C"/>
@@ -2530,21 +2531,28 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="SEGE">
 <contactref element="T13" pad="C"/>
 <contactref element="R24" pad="1"/>
-<wire x1="85.5" y1="85.54" x2="86.23" y2="85.54" width="0.3048" layer="16"/>
-<wire x1="86.23" y1="85.54" x2="87.5" y2="86.81" width="0.3048" layer="16" curve="90"/>
-<wire x1="87.5" y1="88.23" x2="88.77" y2="89.5" width="0.3048" layer="16" curve="-90"/>
-<wire x1="97.23" y1="89.5" x2="99" y2="87.73" width="0.3048" layer="16" curve="-90"/>
 <wire x1="99" y1="36.27" x2="97.73" y2="35" width="0.3048" layer="16" curve="-90"/>
 <wire x1="91.27" y1="35" x2="90" y2="36.27" width="0.3048" layer="16" curve="-90"/>
 <wire x1="90" y1="39" x2="89" y2="40" width="0.3048" layer="16" curve="90"/>
 <wire x1="89" y1="40" x2="86.77" y2="40" width="0.3048" layer="16"/>
 <wire x1="86.77" y1="40" x2="85.5" y2="38.73" width="0.3048" layer="16" curve="90"/>
 <wire x1="85.5" y1="38.73" x2="85.5" y2="38.31" width="0.3048" layer="16"/>
-<wire x1="87.5" y1="86.81" x2="87.5" y2="88.23" width="0.3048" layer="16"/>
-<wire x1="88.77" y1="89.5" x2="97.23" y2="89.5" width="0.3048" layer="16"/>
-<wire x1="99" y1="87.73" x2="99" y2="36.27" width="0.3048" layer="16"/>
 <wire x1="97.73" y1="35" x2="91.27" y2="35" width="0.3048" layer="16"/>
 <wire x1="90" y1="36.27" x2="90" y2="39" width="0.3048" layer="16"/>
+<wire x1="85.5" y1="85.54" x2="87.63" y2="85.54" width="0.3048" layer="16"/>
+<wire x1="87.63" y1="85.54" x2="88.9" y2="86.81" width="0.3048" layer="16" curve="90"/>
+<wire x1="88.9" y1="88.265" x2="90.17" y2="89.535" width="0.3048" layer="16" curve="-90"/>
+<wire x1="93.6625" y1="89.535" x2="94.9325" y2="88.265" width="0.3048" layer="16" curve="-90"/>
+<wire x1="94.9325" y1="88.265" x2="94.9325" y2="82.55" width="0.3048" layer="16"/>
+<wire x1="94.9325" y1="82.55" x2="96.2025" y2="81.28" width="0.3048" layer="16" curve="90"/>
+<wire x1="96.2025" y1="81.28" x2="96.52" y2="81.28" width="0.3048" layer="16"/>
+<wire x1="96.52" y1="81.28" x2="97.79" y2="80.01" width="0.3048" layer="16" curve="-90"/>
+<wire x1="97.79" y1="41.275" x2="98.425" y2="40.64" width="0.3048" layer="16" curve="90"/>
+<wire x1="98.425" y1="40.64" x2="99" y2="40.065" width="0.3048" layer="16" curve="-90"/>
+<wire x1="99" y1="40.065" x2="99" y2="36.27" width="0.3048" layer="16"/>
+<wire x1="88.9" y1="86.81" x2="88.9" y2="88.265" width="0.3048" layer="16"/>
+<wire x1="90.17" y1="89.535" x2="93.6625" y2="89.535" width="0.3048" layer="16"/>
+<wire x1="97.79" y1="80.01" x2="97.79" y2="41.275" width="0.3048" layer="16"/>
 </signal>
 <signal name="SEGD">
 <contactref element="T12" pad="C"/>
@@ -2592,9 +2600,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="SEGA">
 <contactref element="T9" pad="C"/>
 <contactref element="R20" pad="1"/>
-<wire x1="97.5" y1="38.31" x2="97.5" y2="84.27" width="0.3048" layer="16"/>
-<wire x1="97.5" y1="84.27" x2="96.23" y2="85.54" width="0.3048" layer="16" curve="90"/>
-<wire x1="96.23" y1="85.54" x2="92" y2="85.54" width="0.3048" layer="16"/>
+<wire x1="97.5" y1="38.31" x2="96.8375" y2="38.9725" width="0.3048" layer="16" curve="-90"/>
+<wire x1="96.8375" y1="78.74" x2="95.5675" y2="80.01" width="0.3048" layer="16" curve="90"/>
+<wire x1="95.5675" y1="80.01" x2="95.25" y2="80.01" width="0.3048" layer="16"/>
+<wire x1="95.25" y1="80.01" x2="93.98" y2="81.28" width="0.3048" layer="16" curve="-90"/>
+<wire x1="93.98" y1="84.27" x2="92.71" y2="85.54" width="0.3048" layer="16" curve="90"/>
+<wire x1="92.71" y1="85.54" x2="92" y2="85.54" width="0.3048" layer="16"/>
+<wire x1="96.8375" y1="38.9725" x2="96.8375" y2="78.74" width="0.3048" layer="16"/>
+<wire x1="93.98" y1="81.28" x2="93.98" y2="84.27" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$22">
 <contactref element="T1" pad="B"/>
@@ -2680,8 +2693,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="38" y1="22.19" x2="41" y2="22.19" width="0.6096" layer="16"/>
 <wire x1="41" y1="22.19" x2="44" y2="22.19" width="0.6096" layer="16"/>
 <wire x1="56" y1="22.19" x2="71" y2="22.19" width="0.6096" layer="16"/>
-<wire x1="53" y1="22.19" x2="54.5" y2="22.19" width="0.6096" layer="16"/>
-<wire x1="54.5" y1="22.19" x2="56" y2="22.19" width="0.6096" layer="16"/>
+<wire x1="53" y1="22.19" x2="53.34" y2="22.19" width="0.6096" layer="16"/>
+<wire x1="54.5" y1="22.19" x2="54.61" y2="22.19" width="0.6096" layer="16"/>
+<wire x1="54.61" y1="22.19" x2="56" y2="22.19" width="0.6096" layer="16"/>
 <wire x1="56" y1="22.19" x2="59" y2="22.19" width="0.6096" layer="16"/>
 <wire x1="59" y1="22.19" x2="62" y2="22.19" width="0.6096" layer="16"/>
 <wire x1="62" y1="22.19" x2="65" y2="22.19" width="0.6096" layer="16"/>
@@ -2703,20 +2717,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="92.5" y1="11.48" x2="92.5" y2="18" width="0.6096" layer="1"/>
 <contactref element="CN1" pad="2"/>
 <wire x1="92.5" y1="18" x2="92.5" y2="26.72" width="0.6096" layer="1"/>
-<wire x1="54.61" y1="2.54" x2="54.61" y2="22.08" width="0.6096" layer="16"/>
-<wire x1="54.61" y1="22.08" x2="54.5" y2="22.19" width="0.6096" layer="16" curve="90"/>
+<wire x1="53.34" y1="2.54" x2="53.34" y2="22.19" width="0.6096" layer="16"/>
 <wire x1="56" y1="22.19" x2="56" y2="19.27" width="0.6096" layer="1"/>
 <wire x1="56" y1="19.27" x2="57.27" y2="18" width="0.6096" layer="1" curve="90"/>
 <wire x1="57.27" y1="18" x2="92.5" y2="18" width="0.6096" layer="1"/>
-<wire x1="54.61" y1="2.27" x2="54.61" y2="2.54" width="0.6096" layer="16"/>
+<wire x1="53.34" y1="2.27" x2="53.34" y2="2.54" width="0.6096" layer="16"/>
 <wire x1="11.6094" y1="2.2488" x2="11.6094" y2="3.23" width="0.6096" layer="1"/>
 <wire x1="11.6094" y1="3.23" x2="12.5794" y2="4.2" width="0.6096" layer="1" curve="-90"/>
-<wire x1="53.64" y1="4.2" x2="54.61" y2="3.23" width="0.6096" layer="1" curve="-90"/>
-<wire x1="54.61" y1="3.23" x2="54.61" y2="2.54" width="0.6096" layer="1"/>
+<wire x1="52.37" y1="4.2" x2="53.34" y2="3.23" width="0.6096" layer="1" curve="-90"/>
+<wire x1="53.34" y1="3.23" x2="53.34" y2="2.54" width="0.6096" layer="1"/>
 <wire x1="12.5794" y1="4.2" x2="20.5" y2="4.2" width="0.6096" layer="1"/>
 <wire x1="20.5" y1="4.2" x2="30.2" y2="4.2" width="0.6096" layer="1"/>
 <wire x1="30.2" y1="4.2" x2="38.3" y2="4.2" width="0.6096" layer="1"/>
-<wire x1="38.3" y1="4.2" x2="53.64" y2="4.2" width="0.6096" layer="1"/>
+<wire x1="38.3" y1="4.2" x2="52.37" y2="4.2" width="0.6096" layer="1"/>
 <wire x1="20.6094" y1="2.2488" x2="20.5" y2="2.3582" width="0.6096" layer="1" curve="-90"/>
 <wire x1="20.5" y1="2.3582" x2="20.5" y2="4.2" width="0.6096" layer="1"/>
 <wire x1="29.6094" y1="2.2488" x2="29.6094" y2="4" width="0.6096" layer="1"/>
@@ -2753,6 +2766,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="32" y1="22.19" x2="21.27" y2="22.19" width="0.6096" layer="16"/>
 <contactref element="CN4" pad="2"/>
 <contactref element="CN5" pad="2"/>
+<wire x1="54.5" y1="22.19" x2="53.34" y2="22.19" width="0.6096" layer="16"/>
 </signal>
 <signal name="IN0">
 <contactref element="R1" pad="1"/>
@@ -2766,12 +2780,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="9.27" y1="5" x2="7.5" y2="6.77" width="0.3048" layer="1" curve="-90"/>
 <wire x1="4.27" y1="9" x2="6.23" y2="9" width="0.3048" layer="1"/>
 <wire x1="7.5" y1="7.73" x2="7.5" y2="6.77" width="0.3048" layer="1"/>
-<wire x1="59.68" y1="2.5" x2="59.68" y2="5.73" width="0.3048" layer="1"/>
-<wire x1="59.68" y1="5.73" x2="58.41" y2="7" width="0.3048" layer="1" curve="90"/>
+<wire x1="58.42" y1="2.54" x2="58.42" y2="5.72" width="0.3048" layer="1"/>
+<wire x1="58.42" y1="5.72" x2="57.14" y2="7" width="0.3048" layer="1" curve="90"/>
 <wire x1="36.5" y1="7" x2="35.5" y2="6" width="0.3048" layer="1" curve="90"/>
 <wire x1="35.5" y1="6" x2="34.5" y2="5" width="0.3048" layer="1" curve="-90"/>
 <wire x1="34.5" y1="5" x2="9.27" y2="5" width="0.3048" layer="1"/>
-<wire x1="58.41" y1="7" x2="43" y2="7" width="0.3048" layer="1"/>
+<wire x1="57.14" y1="7" x2="43" y2="7" width="0.3048" layer="1"/>
 <wire x1="43" y1="7" x2="36.5" y2="7" width="0.3048" layer="1"/>
 <wire x1="43.1306" y1="8.7512" x2="43" y2="8.6206" width="0.3048" layer="1" curve="90"/>
 <wire x1="43" y1="8.6206" x2="43" y2="7" width="0.3048" layer="1"/>
@@ -2782,9 +2796,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CN2" pad="2"/>
 <wire x1="34.1306" y1="8.7512" x2="34.1306" y2="9.23" width="0.3048" layer="1"/>
 <wire x1="34.1306" y1="9.23" x2="35.4006" y2="10.5" width="0.3048" layer="1" curve="-90"/>
-<wire x1="60.95" y1="10.5" x2="62.22" y2="9.23" width="0.3048" layer="1" curve="-90"/>
-<wire x1="62.22" y1="9.23" x2="62.22" y2="2.5" width="0.3048" layer="1"/>
-<wire x1="35.4006" y1="10.5" x2="60.95" y2="10.5" width="0.3048" layer="1"/>
+<wire x1="59.68" y1="10.5" x2="60.96" y2="9.22" width="0.3048" layer="1" curve="-90"/>
+<wire x1="60.96" y1="9.22" x2="60.96" y2="2.54" width="0.3048" layer="1"/>
+<wire x1="35.4006" y1="10.5" x2="59.68" y2="10.5" width="0.3048" layer="1"/>
 <wire x1="4" y1="11.27" x2="5.27" y2="10" width="0.3048" layer="1" curve="90"/>
 <wire x1="4" y1="42.92" x2="5.27" y2="44.19" width="0.3048" layer="1" curve="-90"/>
 <wire x1="5.27" y1="44.19" x2="6.5" y2="44.19" width="0.3048" layer="1"/>
@@ -2803,9 +2817,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CN2" pad="3"/>
 <wire x1="25.1306" y1="8.7512" x2="25.1306" y2="10.23" width="0.3048" layer="1"/>
 <wire x1="25.1306" y1="10.23" x2="26.4006" y2="11.5" width="0.3048" layer="1" curve="-90"/>
-<wire x1="63.49" y1="11.5" x2="64.76" y2="10.23" width="0.3048" layer="1" curve="-90"/>
-<wire x1="64.76" y1="10.23" x2="64.76" y2="2.5" width="0.3048" layer="1"/>
-<wire x1="26.4006" y1="11.5" x2="63.49" y2="11.5" width="0.3048" layer="1"/>
+<wire x1="62.22" y1="11.5" x2="63.5" y2="10.22" width="0.3048" layer="1" curve="-90"/>
+<wire x1="63.5" y1="10.22" x2="63.5" y2="2.54" width="0.3048" layer="1"/>
+<wire x1="26.4006" y1="11.5" x2="62.22" y2="11.5" width="0.3048" layer="1"/>
 <wire x1="6.5" y1="34.19" x2="6.27" y2="34.19" width="0.3048" layer="1"/>
 <wire x1="6.27" y1="34.19" x2="5" y2="32.92" width="0.3048" layer="1" curve="90"/>
 <wire x1="5" y1="12.27" x2="6.27" y2="11" width="0.3048" layer="1" curve="90"/>
@@ -2822,11 +2836,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R4" pad="1"/>
 <contactref element="U$4" pad="2B"/>
 <contactref element="CN2" pad="4"/>
-<wire x1="67.3" y1="2.5" x2="67.3" y2="11.23" width="0.3048" layer="1"/>
-<wire x1="67.3" y1="11.23" x2="66.03" y2="12.5" width="0.3048" layer="1" curve="90"/>
+<wire x1="66.04" y1="2.54" x2="66.04" y2="11.22" width="0.3048" layer="1"/>
+<wire x1="66.04" y1="11.22" x2="64.76" y2="12.5" width="0.3048" layer="1" curve="90"/>
 <wire x1="7.77" y1="12.5" x2="6.5" y2="13.77" width="0.3048" layer="1" curve="-90"/>
 <wire x1="6.5" y1="13.77" x2="6.5" y2="24.19" width="0.3048" layer="1"/>
-<wire x1="66.03" y1="12.5" x2="16" y2="12.5" width="0.3048" layer="1"/>
+<wire x1="64.76" y1="12.5" x2="16" y2="12.5" width="0.3048" layer="1"/>
 <wire x1="16" y1="12.5" x2="7.77" y2="12.5" width="0.3048" layer="1"/>
 <wire x1="16.1306" y1="8.7512" x2="16" y2="8.8818" width="0.3048" layer="1" curve="-90"/>
 <wire x1="16" y1="8.8818" x2="16" y2="12.5" width="0.3048" layer="1"/>
@@ -2835,106 +2849,122 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="DISP1" pad="7"/>
 <contactref element="R20" pad="2"/>
 <contactref element="CN3" pad="1"/>
-<wire x1="97.5" y1="30.69" x2="97.5" y2="29.5" width="0.3048" layer="16"/>
-<wire x1="97.5" y1="29.5" x2="97" y2="29" width="0.3048" layer="16" curve="-90"/>
-<wire x1="97" y1="29" x2="96.31" y2="29" width="0.3048" layer="16"/>
-<wire x1="96.31" y1="29" x2="95.04" y2="27.73" width="0.3048" layer="16" curve="90"/>
-<wire x1="95.04" y1="27.73" x2="95.04" y2="26.72" width="0.3048" layer="16"/>
-<wire x1="95.04" y1="26.72" x2="95.04" y2="15.27" width="0.3048" layer="16"/>
-<wire x1="95.04" y1="15.27" x2="93.77" y2="14" width="0.3048" layer="16" curve="-90"/>
-<wire x1="89.97" y1="14" x2="88.7" y2="12.73" width="0.3048" layer="16" curve="90"/>
-<wire x1="88.7" y1="3.67" x2="87.57" y2="2.54" width="0.3048" layer="16" curve="-90"/>
-<wire x1="87.57" y1="2.54" x2="87.63" y2="2.54" width="0.3048" layer="16"/>
-<wire x1="93.77" y1="14" x2="89.97" y2="14" width="0.3048" layer="16"/>
-<wire x1="88.7" y1="12.73" x2="88.7" y2="3.67" width="0.3048" layer="16"/>
+<wire x1="86.36" y1="2.54" x2="86.36" y2="8.5725" width="0.3048" layer="16"/>
+<wire x1="86.36" y1="8.5725" x2="87.63" y2="9.8425" width="0.3048" layer="16" curve="-90"/>
+<wire x1="95.25" y1="9.8425" x2="96.2025" y2="10.795" width="0.3048" layer="16" curve="90"/>
+<wire x1="87.63" y1="9.8425" x2="95.25" y2="9.8425" width="0.3048" layer="16"/>
+<wire x1="96.2025" y1="29.42" x2="97.4725" y2="30.69" width="0.3048" layer="16" curve="-90"/>
+<wire x1="97.4725" y1="30.69" x2="97.5" y2="30.69" width="0.3048" layer="16"/>
+<wire x1="96.2025" y1="10.795" x2="96.2025" y2="26.67" width="0.3048" layer="16"/>
+<wire x1="96.2025" y1="26.67" x2="96.2025" y2="29.42" width="0.3048" layer="16"/>
+<wire x1="95.04" y1="26.72" x2="96.1525" y2="26.72" width="0.3048" layer="16"/>
+<wire x1="96.1525" y1="26.72" x2="96.2025" y2="26.67" width="0.3048" layer="16" curve="-90"/>
 </signal>
 <signal name="N$9">
 <contactref element="R21" pad="2"/>
 <contactref element="DISP1" pad="6"/>
 <contactref element="CN3" pad="2"/>
-<wire x1="92.23" y1="15" x2="93.7" y2="16.47" width="0.3048" layer="16" curve="90"/>
-<wire x1="86.33" y1="15" x2="85.09" y2="13.76" width="0.3048" layer="16" curve="90"/>
-<wire x1="85.09" y1="13.76" x2="85.09" y2="2.54" width="0.3048" layer="16"/>
-<wire x1="92.23" y1="15" x2="86.33" y2="15" width="0.3048" layer="16"/>
+<wire x1="83.82" y1="12.49" x2="83.82" y2="12.46" width="0.3048" layer="16"/>
+<wire x1="83.82" y1="12.46" x2="83.82" y2="2.54" width="0.3048" layer="16"/>
+<wire x1="92.23" y1="13.73" x2="91.44" y2="13.73" width="0.3048" layer="16"/>
+<wire x1="91.44" y1="13.73" x2="85.09" y2="13.73" width="0.3048" layer="16"/>
+<wire x1="85.09" y1="13.73" x2="85.06" y2="13.73" width="0.3048" layer="16"/>
 <wire x1="93.7" y1="29.89" x2="94.5" y2="30.69" width="0.3048" layer="16" curve="-90"/>
-<wire x1="93.7" y1="16.47" x2="93.7" y2="29.89" width="0.3048" layer="16"/>
+<wire x1="93.7" y1="15.2" x2="93.7" y2="16.51" width="0.3048" layer="16"/>
+<wire x1="93.7" y1="16.51" x2="93.7" y2="29.89" width="0.3048" layer="16"/>
 <wire x1="97.58" y1="26.72" x2="97.58" y2="27.92" width="0.3048" layer="1"/>
 <wire x1="97.58" y1="27.92" x2="96.5" y2="29" width="0.3048" layer="1" curve="90"/>
 <wire x1="96.5" y1="29" x2="96.19" y2="29" width="0.3048" layer="1"/>
 <wire x1="96.19" y1="29" x2="94.5" y2="30.69" width="0.3048" layer="1" curve="-90"/>
+<wire x1="83.82" y1="12.46" x2="85.09" y2="13.73" width="0.3048" layer="16" curve="-90"/>
+<wire x1="92.23" y1="13.73" x2="92.43" y2="13.73" width="0.3048" layer="16"/>
+<wire x1="92.43" y1="13.73" x2="93.7" y2="15" width="0.3048" layer="16" curve="90"/>
+<wire x1="93.7" y1="15" x2="93.7" y2="15.2" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="DISP1" pad="4"/>
 <contactref element="R22" pad="2"/>
 <contactref element="CN3" pad="3"/>
 <wire x1="91.5" y1="30.69" x2="91.3" y2="30.49" width="0.3048" layer="16"/>
-<wire x1="91.3" y1="30.49" x2="91.3" y2="17.07" width="0.3048" layer="16"/>
-<wire x1="91.3" y1="17.07" x2="90.23" y2="16" width="0.3048" layer="16" curve="-90"/>
-<wire x1="83.79" y1="16" x2="82.55" y2="14.76" width="0.3048" layer="16" curve="90"/>
-<wire x1="82.55" y1="14.76" x2="82.55" y2="2.54" width="0.3048" layer="16"/>
-<wire x1="90.23" y1="16" x2="83.79" y2="16" width="0.3048" layer="16"/>
+<wire x1="91.3" y1="30.49" x2="91.3" y2="17.78" width="0.3048" layer="16"/>
+<wire x1="91.3" y1="17.78" x2="91.3" y2="17.07" width="0.3048" layer="16"/>
+<wire x1="81.28" y1="13.49" x2="81.28" y2="13.46" width="0.3048" layer="16"/>
+<wire x1="81.28" y1="13.46" x2="81.28" y2="2.54" width="0.3048" layer="16"/>
+<wire x1="88.96" y1="14.73" x2="88.9" y2="14.73" width="0.3048" layer="16"/>
+<wire x1="88.9" y1="14.73" x2="82.55" y2="14.73" width="0.3048" layer="16"/>
+<wire x1="82.55" y1="14.73" x2="82.52" y2="14.73" width="0.3048" layer="16"/>
 <wire x1="95.04" y1="11.48" x2="95.04" y2="9.77" width="0.3048" layer="1"/>
 <wire x1="95.04" y1="9.77" x2="93.77" y2="8.5" width="0.3048" layer="1" curve="-90"/>
-<wire x1="83.79" y1="8.5" x2="82.55" y2="7.26" width="0.3048" layer="1" curve="90"/>
-<wire x1="82.55" y1="7.26" x2="82.55" y2="2.54" width="0.3048" layer="1"/>
-<wire x1="93.77" y1="8.5" x2="83.79" y2="8.5" width="0.3048" layer="1"/>
+<wire x1="82.52" y1="8.5" x2="81.28" y2="7.26" width="0.3048" layer="1" curve="90"/>
+<wire x1="81.28" y1="7.26" x2="81.28" y2="2.54" width="0.3048" layer="1"/>
+<wire x1="93.77" y1="8.5" x2="82.52" y2="8.5" width="0.3048" layer="1"/>
+<wire x1="81.28" y1="13.46" x2="82.55" y2="14.73" width="0.3048" layer="16" curve="-90"/>
+<wire x1="88.96" y1="14.73" x2="90.03" y2="14.73" width="0.3048" layer="16"/>
+<wire x1="90.03" y1="14.73" x2="91.3" y2="16" width="0.3048" layer="16" curve="90"/>
+<wire x1="91.3" y1="16" x2="91.3" y2="17.07" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$11">
 <contactref element="DISP1" pad="2"/>
 <contactref element="R23" pad="2"/>
 <contactref element="CN3" pad="4"/>
-<wire x1="88.5" y1="30.69" x2="88.7" y2="30.49" width="0.3048" layer="16"/>
-<wire x1="88.7" y1="30.49" x2="88.7" y2="18.47" width="0.3048" layer="16"/>
-<wire x1="88.7" y1="18.47" x2="87.23" y2="17" width="0.3048" layer="16" curve="-90"/>
-<wire x1="81.25" y1="17" x2="80.01" y2="15.76" width="0.3048" layer="16" curve="90"/>
-<wire x1="80.01" y1="15.76" x2="80.01" y2="2.54" width="0.3048" layer="16"/>
-<wire x1="87.23" y1="17" x2="81.25" y2="17" width="0.3048" layer="16"/>
-<wire x1="89.96" y1="11.48" x2="89.96" y2="10.77" width="0.3048" layer="1"/>
+<wire x1="78.74" y1="14.49" x2="78.74" y2="14.46" width="0.3048" layer="16"/>
+<wire x1="78.74" y1="14.46" x2="78.74" y2="2.54" width="0.3048" layer="16"/>
+<wire x1="80.01" y1="15.73" x2="79.98" y2="15.73" width="0.3048" layer="16"/>
 <wire x1="89.96" y1="10.77" x2="88.69" y2="9.5" width="0.3048" layer="1" curve="-90"/>
-<wire x1="81.25" y1="9.5" x2="80.01" y2="8.26" width="0.3048" layer="1" curve="90"/>
-<wire x1="80.01" y1="8.26" x2="80.01" y2="2.54" width="0.3048" layer="1"/>
-<wire x1="88.69" y1="9.5" x2="81.25" y2="9.5" width="0.3048" layer="1"/>
+<wire x1="79.98" y1="9.5" x2="78.74" y2="8.26" width="0.3048" layer="1" curve="90"/>
+<wire x1="78.74" y1="8.26" x2="78.74" y2="2.54" width="0.3048" layer="1"/>
+<wire x1="88.69" y1="9.5" x2="79.98" y2="9.5" width="0.3048" layer="1"/>
+<wire x1="89.96" y1="11.48" x2="89.96" y2="10.77" width="0.3048" layer="1"/>
+<wire x1="78.74" y1="14.46" x2="80.01" y2="15.73" width="0.3048" layer="16" curve="-90"/>
+<wire x1="80.01" y1="15.73" x2="87.23" y2="15.73" width="0.3048" layer="16"/>
+<wire x1="88.5" y1="30.69" x2="88.74125" y2="30.44875" width="0.3048" layer="16"/>
+<wire x1="88.74125" y1="30.44875" x2="88.74125" y2="17.24125" width="0.3048" layer="16"/>
+<wire x1="88.74125" y1="17.24125" x2="87.23" y2="15.73" width="0.3048" layer="16" curve="-90"/>
 </signal>
 <signal name="N$12">
 <contactref element="DISP1" pad="1"/>
 <contactref element="R24" pad="2"/>
 <contactref element="CN3" pad="5"/>
-<wire x1="85.5" y1="30.69" x2="85.5" y2="19.27" width="0.3048" layer="16"/>
-<wire x1="85.5" y1="19.27" x2="84.23" y2="18" width="0.3048" layer="16" curve="-90"/>
-<wire x1="78.71" y1="18" x2="77.47" y2="16.76" width="0.3048" layer="16" curve="90"/>
-<wire x1="77.47" y1="16.76" x2="77.47" y2="2.54" width="0.3048" layer="16"/>
-<wire x1="84.23" y1="18" x2="78.71" y2="18" width="0.3048" layer="16"/>
-<wire x1="87.42" y1="11.48" x2="78.71" y2="11.48" width="0.3048" layer="1"/>
-<wire x1="78.71" y1="11.48" x2="77.47" y2="10.24" width="0.3048" layer="1" curve="90"/>
-<wire x1="77.47" y1="10.24" x2="77.47" y2="2.54" width="0.3048" layer="1"/>
+<wire x1="76.2" y1="15.49" x2="76.2" y2="15.46" width="0.3048" layer="16"/>
+<wire x1="76.2" y1="15.46" x2="76.2" y2="2.54" width="0.3048" layer="16"/>
+<wire x1="82.96" y1="16.73" x2="82.8675" y2="16.73" width="0.3048" layer="16"/>
+<wire x1="82.8675" y1="16.73" x2="77.47" y2="16.73" width="0.3048" layer="16"/>
+<wire x1="77.47" y1="16.73" x2="77.44" y2="16.73" width="0.3048" layer="16"/>
+<wire x1="87.42" y1="11.48" x2="77.44" y2="11.48" width="0.3048" layer="1"/>
+<wire x1="77.44" y1="11.48" x2="76.2" y2="10.24" width="0.3048" layer="1" curve="90"/>
+<wire x1="76.2" y1="10.24" x2="76.2" y2="2.54" width="0.3048" layer="1"/>
+<wire x1="77.47" y1="16.73" x2="76.2" y2="15.46" width="0.3048" layer="16" curve="90"/>
+<wire x1="85.5" y1="30.69" x2="85.5" y2="18" width="0.3048" layer="16"/>
+<wire x1="85.5" y1="18" x2="84.23" y2="16.73" width="0.3048" layer="16" curve="-90"/>
+<wire x1="84.23" y1="16.73" x2="82.96" y2="16.73" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$13">
 <contactref element="R25" pad="2"/>
 <contactref element="DISP1" pad="9"/>
 <contactref element="CN3" pad="6"/>
-<wire x1="74.93" y1="2.54" x2="74.93" y2="17.76" width="0.3048" layer="16"/>
-<wire x1="74.93" y1="17.76" x2="76.17" y2="19" width="0.3048" layer="16" curve="-90"/>
-<wire x1="81.23" y1="19" x2="82.5" y2="20.27" width="0.3048" layer="16" curve="90"/>
-<wire x1="82.5" y1="20.27" x2="82.5" y2="30.69" width="0.3048" layer="16"/>
-<wire x1="76.17" y1="19" x2="81.23" y2="19" width="0.3048" layer="16"/>
+<wire x1="73.66" y1="2.54" x2="73.66" y2="16.49" width="0.3048" layer="16"/>
 <wire x1="89.96" y1="26.72" x2="89.96" y2="27.73" width="0.3048" layer="1"/>
 <wire x1="89.96" y1="27.73" x2="88.69" y2="29" width="0.3048" layer="1" curve="90"/>
 <wire x1="83.77" y1="29" x2="82.5" y2="30.27" width="0.3048" layer="1" curve="-90"/>
 <wire x1="82.5" y1="30.27" x2="82.5" y2="30.69" width="0.3048" layer="1"/>
 <wire x1="88.69" y1="29" x2="83.77" y2="29" width="0.3048" layer="1"/>
+<wire x1="73.66" y1="16.49" x2="74.9" y2="17.73" width="0.3048" layer="16" curve="-90"/>
+<wire x1="81.23" y1="17.73" x2="82.5" y2="19" width="0.3048" layer="16" curve="90"/>
+<wire x1="82.5" y1="19" x2="82.5" y2="30.69" width="0.3048" layer="16"/>
+<wire x1="74.9" y1="17.73" x2="81.23" y2="17.73" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$14">
 <contactref element="DISP1" pad="10"/>
 <contactref element="R26" pad="2"/>
 <contactref element="CN3" pad="7"/>
-<wire x1="72.39" y1="18.45" x2="73.63" y2="19.69" width="0.3048" layer="16" curve="-90"/>
-<wire x1="72.39" y1="18.45" x2="72.39" y2="2.54" width="0.3048" layer="16"/>
+<wire x1="71.12" y1="2.54" x2="71.12" y2="17.18" width="0.3048" layer="16"/>
 <wire x1="87.42" y1="26.72" x2="80.77" y2="26.72" width="0.3048" layer="1"/>
 <wire x1="80.77" y1="26.72" x2="79.5" y2="27.99" width="0.3048" layer="1" curve="-90"/>
 <wire x1="79.5" y1="27.99" x2="79.5" y2="30.69" width="0.3048" layer="1"/>
-<wire x1="73.63" y1="19.69" x2="78.5" y2="19.69" width="0.3048" layer="16"/>
-<wire x1="78.5" y1="19.69" x2="79.5" y2="20.69" width="0.3048" layer="16" curve="90"/>
-<wire x1="79.5" y1="20.69" x2="79.5" y2="30.69" width="0.3048" layer="16"/>
+<wire x1="71.12" y1="17.18" x2="72.36" y2="18.42" width="0.3048" layer="16" curve="-90"/>
+<wire x1="78.23" y1="18.42" x2="79.5" y2="19.69" width="0.3048" layer="16" curve="90"/>
+<wire x1="79.5" y1="19.69" x2="79.5" y2="30.69" width="0.3048" layer="16"/>
+<wire x1="72.36" y1="18.42" x2="78.23" y2="18.42" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$16" class="1">
 <contactref element="BT1" pad="1"/>

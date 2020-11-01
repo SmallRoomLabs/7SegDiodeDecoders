@@ -513,11 +513,11 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line  C B E from top&lt;p&gt;</description>
 <wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1778" layer="21"/>
 <wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.1778" layer="21" curve="-129.583"/>
-<wire x1="-2.413" y1="1.1359" x2="-2.664" y2="-0.127" width="0.1778" layer="51" curve="27.9376"/>
-<wire x1="-2.664" y1="-0.127" x2="-2.413" y2="-1.1359" width="0.1778" layer="51" curve="22.4788"/>
+<wire x1="-2.413" y1="1.1359" x2="-2.664" y2="-0.127" width="0.1778" layer="21" curve="27.9376"/>
+<wire x1="-2.664" y1="-0.127" x2="-2.413" y2="-1.1359" width="0.1778" layer="21" curve="22.4788"/>
 <wire x1="-2.4135" y1="-1.1359" x2="-2.095" y2="-1.651" width="0.1778" layer="21" curve="13.0385"/>
-<wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.1778" layer="51" curve="22.4788"/>
-<wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.1778" layer="51" curve="27.9376"/>
+<wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.1778" layer="21" curve="22.4788"/>
+<wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.1778" layer="21" curve="27.9376"/>
 <wire x1="2.095" y1="-1.651" x2="2.4247" y2="-1.1118" width="0.1778" layer="21" curve="13.6094"/>
 <pad name="B" x="0" y="0" drill="0.8128" diameter="1.4224" shape="octagon" rot="R90" stop="no"/>
 <pad name="C" x="-2.54" y="0" drill="0.8128" diameter="1.4224" shape="octagon" rot="R90" stop="no"/>
@@ -534,7 +534,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <vertex x="2.225" y="-0.75"/>
 <vertex x="1.775" y="-0.3"/>
 </polygon>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1778" layer="21"/>
 <polygon width="0.01" layer="30">
 <vertex x="-3.305" y="0.325"/>
 <vertex x="-2.855" y="0.75"/>
@@ -565,11 +564,11 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <text x="-2.54" y="-4.572" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-2.095" y1="-2.921" x2="2.095" y2="-2.921" width="0.1778" layer="21"/>
 <wire x1="-2.413" y1="-0.1341" x2="2.413" y2="-0.1341" width="0.1778" layer="21" curve="-129.583"/>
-<wire x1="-2.413" y1="-0.1341" x2="-2.664" y2="-1.397" width="0.1778" layer="51" curve="27.9376"/>
-<wire x1="-2.664" y1="-1.397" x2="-2.413" y2="-2.4059" width="0.1778" layer="51" curve="22.4788"/>
+<wire x1="-2.413" y1="-0.1341" x2="-2.664" y2="-1.397" width="0.1778" layer="21" curve="27.9376"/>
+<wire x1="-2.664" y1="-1.397" x2="-2.413" y2="-2.4059" width="0.1778" layer="21" curve="22.4788"/>
 <wire x1="-2.4135" y1="-2.4059" x2="-2.095" y2="-2.921" width="0.1778" layer="21" curve="13.0385"/>
-<wire x1="2.413" y1="-2.4059" x2="2.664" y2="-1.397" width="0.1778" layer="51" curve="22.4788"/>
-<wire x1="2.664" y1="-1.397" x2="2.413" y2="-0.1341" width="0.1778" layer="51" curve="27.9376"/>
+<wire x1="2.413" y1="-2.4059" x2="2.664" y2="-1.397" width="0.1778" layer="21" curve="22.4788"/>
+<wire x1="2.664" y1="-1.397" x2="2.413" y2="-0.1341" width="0.1778" layer="21" curve="27.9376"/>
 <wire x1="2.095" y1="-2.921" x2="2.4247" y2="-2.3818" width="0.1778" layer="21" curve="13.6094"/>
 <text x="-2.54" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <polygon width="0.01" layer="30">
@@ -582,7 +581,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <vertex x="2.225" y="-2.02"/>
 <vertex x="1.775" y="-1.57"/>
 </polygon>
-<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.1778" layer="21"/>
 <polygon width="0.01" layer="30">
 <vertex x="-3.305" y="-0.945"/>
 <vertex x="-2.855" y="-0.52"/>
